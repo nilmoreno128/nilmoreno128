@@ -45,4 +45,4 @@
 
 ---
 
-Thanks for visiting my profile! If you're interested in collaborating or learning more, feel free to reach out. 😊
+Thanks for visiting my profile! 😊
