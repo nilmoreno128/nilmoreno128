@@ -18,15 +18,10 @@
   <summary>Click to view languages and tools 👇</summary>
   
   ### **Languages**:
-  ![Technology Used](https://img.shields.io/badge/Tech-C%2B%2B-blue)
-  ![Technology Used](https://img.shields.io/badge/Tech-C%23-green)
-  ![Technology Used](https://img.shields.io/badge/Tech-Python-blue)
-  ![Technology Used](https://img.shields.io/badge/Tech-JavaScript-yellow)
+  [![LanguagesLogos](https://skillicons.dev/icons?i=c,cs,cpp,python&perline=4)](https://skillicons.dev)
   
   ### **Tools**:
-  ![Tools Used](https://img.shields.io/badge/Tools-Unity-000000)
-  ![Tools Used](https://img.shields.io/badge/Tools-VS_Code-007ACC)
-  ![Tools Used](https://img.shields.io/badge/Tools-Visual_Studio-5C2D91)
+  [![ToolsLogos](https://skillicons.dev/icons?i=windows,blender,ps,ai,unity,vscode,visualstudio,notion&perline=4)](https://skillicons.dev)
   
 </details>
 
