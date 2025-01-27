@@ -18,7 +18,7 @@
   <summary>Click to view languages and tools 👇</summary>
   
   ### **Languages**:
-  [![LanguagesLogos](https://skillicons.dev/icons?i=c,cs,cpp,python&perline=4)](https://skillicons.dev)
+  [![LanguagesLogos](https://skillicons.dev/icons?i=c,cs,cpp,python,js&perline=4)](https://skillicons.dev)
   
   ### **Tools**:
   [![ToolsLogos](https://skillicons.dev/icons?i=windows,blender,ps,ai,unity,vscode,visualstudio,notion&perline=4)](https://skillicons.dev)
