@@ -45,14 +45,18 @@
   ![Steam Card](https://card.yuy1n.io/card/76561198894586735/dark,en,badge,badges,games)
 </details>
 
-<!-- BEGIN YOUTUBE-CARDS -->
-[![TrafficSystemController #unity](https://ytcards.demolab.com/?id=YL849DFzRis&title=TrafficSystemController+%23unity&lang=en&timestamp=1737319502&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "TrafficSystemController #unity")](https://www.youtube.com/watch?v=YL849DFzRis)
-[![FreeCameraController #unity](https://ytcards.demolab.com/?id=q8GUNYZ0_B0&title=FreeCameraController+%23unity&lang=en&timestamp=1737319501&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "FreeCameraController #unity")](https://www.youtube.com/watch?v=q8GUNYZ0_B0)
-[![MultiTargetCameraController #unity](https://ytcards.demolab.com/?id=w7JWjdIaDfk&title=MultiTargetCameraController+%23unity&lang=en&timestamp=1737319501&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "MultiTargetCameraController #unity")](https://www.youtube.com/watch?v=w7JWjdIaDfk)
-[![BoxTower Trailer](https://ytcards.demolab.com/?id=uRjj1LJWdHU&title=BoxTower+Trailer&lang=en&timestamp=1695581272&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "BoxTower Trailer")](https://www.youtube.com/watch?v=uRjj1LJWdHU)
-[![BoxTower Trailer #shorts](https://ytcards.demolab.com/?id=oZYrNT_-DWs&title=BoxTower+Trailer+%23shorts&lang=en&timestamp=1684571889&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "BoxTower Trailer #shorts")](https://www.youtube.com/watch?v=oZYrNT_-DWs)
-[![Creando animacion de Minecraft #4](https://ytcards.demolab.com/?id=QtUXo5vFuAQ&title=Creando+animacion+de+Minecraft+%234&lang=en&timestamp=1675631660&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "Creando animacion de Minecraft #4")](https://www.youtube.com/watch?v=QtUXo5vFuAQ)
-<!-- END YOUTUBE-CARDS -->
+<details>
+  <summary>Click to view my YouTube videos 👇</summary>
+
+  <!-- BEGIN YOUTUBE-CARDS -->
+  [![TrafficSystemController #unity](https://ytcards.demolab.com/?id=YL849DFzRis&title=TrafficSystemController+%23unity&lang=en&timestamp=1737319502&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "TrafficSystemController #unity")](https://www.youtube.com/watch?v=YL849DFzRis)
+  [![FreeCameraController #unity](https://ytcards.demolab.com/?id=q8GUNYZ0_B0&title=FreeCameraController+%23unity&lang=en&timestamp=1737319501&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "FreeCameraController #unity")](https://www.youtube.com/watch?v=q8GUNYZ0_B0)
+  [![MultiTargetCameraController #unity](https://ytcards.demolab.com/?id=w7JWjdIaDfk&title=MultiTargetCameraController+%23unity&lang=en&timestamp=1737319501&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "MultiTargetCameraController #unity")](https://www.youtube.com/watch?v=w7JWjdIaDfk)
+  [![BoxTower Trailer](https://ytcards.demolab.com/?id=uRjj1LJWdHU&title=BoxTower+Trailer&lang=en&timestamp=1695581272&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "BoxTower Trailer")](https://www.youtube.com/watch?v=uRjj1LJWdHU)
+  [![BoxTower Trailer #shorts](https://ytcards.demolab.com/?id=oZYrNT_-DWs&title=BoxTower+Trailer+%23shorts&lang=en&timestamp=1684571889&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "BoxTower Trailer #shorts")](https://www.youtube.com/watch?v=oZYrNT_-DWs)
+  [![Creando animacion de Minecraft #4](https://ytcards.demolab.com/?id=QtUXo5vFuAQ&title=Creando+animacion+de+Minecraft+%234&lang=en&timestamp=1675631660&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "Creando animacion de Minecraft #4")](https://www.youtube.com/watch?v=QtUXo5vFuAQ)
+  <!-- END YOUTUBE-CARDS -->
+</details>
 
 ---
 
