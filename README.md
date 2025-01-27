@@ -37,6 +37,14 @@
 
 </details>
 
+## 🔍 Other Profiles
+
+<details>
+  <summary>Click to view other profiles 👇</summary>
+
+  ![Steam Card](https://card.yuy1n.io/card/76561198894586735/dark,en,badge,badges,games)
+</details>
+
 ---
 
 Thanks for visiting my profile! 😊
