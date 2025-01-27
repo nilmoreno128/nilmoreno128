@@ -17,11 +17,11 @@
 <details open>
   <summary>Click to view languages and tools 👇</summary>
   
-  ### **Languages**:
-  [![LanguagesLogos](https://skillicons.dev/icons?i=c,cs,cpp,python,js&perline=4)](https://skillicons.dev)
+  ### **Programming & Markup Languages**:
+  [![LanguagesLogos](https://skillicons.dev/icons?i=c,cs,cpp,python,js,html,css&perline=6)](https://skillicons.dev)
   
-  ### **Tools**:
-  [![ToolsLogos](https://skillicons.dev/icons?i=windows,blender,ps,ai,unity,vscode,visualstudio,notion&perline=4)](https://skillicons.dev)
+  ### **Software & Tools**:
+  [![ToolsLogos](https://skillicons.dev/icons?i=windows,blender,ps,ai,unity,vscode,visualstudio,notion,discord&perline=5)](https://skillicons.dev)
   
 </details>
 
