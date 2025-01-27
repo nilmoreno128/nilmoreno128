@@ -17,6 +17,6 @@ jobs:
         with:
           ## channel_id: UC3lmuKxjAVNIG-yLKb9d-sA
           playlist_id: PLFAPVwTlvSdyXXlWIK3W6HzLMZe8QL4Sf
-          lang: en
+          lang: es
           max_videos: 3
           commit_message: "Update YouTube cards"
