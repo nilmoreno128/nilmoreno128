@@ -51,7 +51,6 @@
   <!-- BEGIN YOUTUBE-CARDS -->
 [![TrafficSystemController #unity](https://ytcards.demolab.com/?id=YL849DFzRis&title=TrafficSystemController+%23unity&lang=en&timestamp=1737319502&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "TrafficSystemController #unity")](https://www.youtube.com/watch?v=YL849DFzRis)
 [![FreeCameraController #unity](https://ytcards.demolab.com/?id=q8GUNYZ0_B0&title=FreeCameraController+%23unity&lang=en&timestamp=1737319501&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "FreeCameraController #unity")](https://www.youtube.com/watch?v=q8GUNYZ0_B0)
-[![MultiTargetCameraController #unity](https://ytcards.demolab.com/?id=w7JWjdIaDfk&title=MultiTargetCameraController+%23unity&lang=en&timestamp=1737319501&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "MultiTargetCameraController #unity")](https://www.youtube.com/watch?v=w7JWjdIaDfk)
 <!-- END YOUTUBE-CARDS -->
 </details>
 
