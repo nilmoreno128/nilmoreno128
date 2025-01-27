@@ -45,6 +45,9 @@
   ![Steam Card](https://card.yuy1n.io/card/76561198894586735/dark,en,badge,badges,games)
 </details>
 
+<!-- BEGIN YOUTUBE-CARDS -->
+<!-- END YOUTUBE-CARDS -->
+
 ---
 
 Thanks for visiting my profile! 😊
