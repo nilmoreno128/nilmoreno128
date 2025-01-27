@@ -1,7 +1,6 @@
 [![Title](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&vCenter=true&width=435&lines=Hello!+I'm+Nil+Moreno;Welcome+to+my+profile!)](https://git.io/typing-svg)
 
-![SoftwareDeveloper](https://img.shields.io/badge/Focus-SoftwareDeveloper-000000)
-![Profile Views](https://komarev.com/ghpvc/?username=nilmoreno128&color=000000)
+**`Software Developer`**
 
 <details open>
   <summary><strong>Developer Quote</strong></summary>
