@@ -43,6 +43,8 @@
   <summary>Click to view other profiles 👇</summary>
 
   [![Steam Card](https://card.yuy1n.io/card/76561198894586735/dark,en,badge,badges,games)](https://steamcommunity.com/id/fastrogame/)
+
+[![Discord Card](https://discord-readme-card.ezzud.fr/?userid=YOUR_DISCORD_USER_ID)](https://github.com/Ezzud/github-readme-discord-card)
 </details>
 
 <details>
