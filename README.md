@@ -44,7 +44,7 @@
 
   [![Steam Card](https://card.yuy1n.io/card/76561198894586735/dark,en,badge,badges,games)](https://steamcommunity.com/id/fastrogame/)
 
-[![Discord Card](https://discord-readme-card.ezzud.fr/?userid=691620711118143569)](https://github.com/Ezzud/github-readme-discord-card)
+[![Discord Card](https://discord-readme-card.ezzud.fr/?userid=)](https://discord.com/users/691620711118143569)
 </details>
 
 <details>
