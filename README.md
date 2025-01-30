@@ -42,7 +42,7 @@
 <details>
   <summary>Click to view other profiles 👇</summary>
 
-  ![Steam Card](https://card.yuy1n.io/card/76561198894586735/dark,en,badge,badges,games)
+  ![Steam Card](https://card.yuy1n.io/card/76561198894586735/dark,en,badge,badges,games)](https://steamcommunity.com/id/fastrogame/)
 </details>
 
 <details>
