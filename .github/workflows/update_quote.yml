@@ -2,35 +2,34 @@ name: Update GitHub Profile Quote
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Run every 15 minutes
-  workflow_dispatch:  # Allows manual triggering as well
+    - cron: '*/15 * * * *'  # Runs every 15 minutes
 
 jobs:
-  update_quote:
-    runs-on: ubuntu-latest  # Specifies the environment to run the job
+  update-quote:
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3  # Checks out the repository to access files
+    - name: Checkout repository
+      uses: actions/checkout@v2  # Clones el repositorio
 
-      - name: Set up Python
-        uses: actions/setup-python@v4  # Sets up the Python environment
-        with:
-          python-version: '3.x'  # Specifies the Python version
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'  # Usa la versión de Python que necesites
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip  # Upgrades pip
-          pip install requests  # Installs any required dependencies (optional)
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt  # Si tienes un archivo requirements.txt, asegúrate de que esté configurado. Si no, elimina esta línea
 
-      - name: Update quote in README
-        run: |
-          python Quote/update_quote.py  # Runs the Python script from the Quote folder
+    - name: Run the update_quote script
+      run: python Quote/update_quote.py  # Ejecuta el script Python que actualiza la cita en el README.md
 
-      - name: Commit updated README
-        run: |
-          git config --global user.name "GitHub Actions"  # Set up git config
-          git config --global user.email "actions@github.com"  # Set up git config
-          git add README.md  # Stages the README file for commit
-          git commit -m "Update quote in README"  # Commit the changes
-          git push  # Push the changes to the repository
+    - name: Commit and push changes
+      run: |
+        git config --global user.email "youremail@example.com"  # Reemplaza con tu email
+        git config --global user.name "your_name"  # Reemplaza con tu nombre
+        git add README.md  # Agrega el archivo README.md al commit
+        git commit -m "Update quote in README"  # Realiza el commit
+        git push origin main  # Empuja el cambio a la rama principal (main)
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Usa el token de GitHub para autenticar el commit y push
