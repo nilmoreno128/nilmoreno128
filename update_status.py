@@ -4,7 +4,8 @@ from datetime import datetime
 
 # Update the status message on GitHub
 def update_status():
-    url = "https://api.github.com/users/{username}"
+    username = "nilmoreno128"  # Tu nombre de usuario de GitHub
+    url = f"https://api.github.com/users/{username}"
     headers = {
         "Authorization": f"token {os.getenv('GH_TOKEN')}",
         "Content-Type": "application/json"
@@ -28,7 +29,8 @@ def update_status():
     }
 
     response = requests.patch(url, json=payload, headers=headers)
-    
+
+    # Verifica si la solicitud fue exitosa
     if response.status_code == 200:
         print(f"Status updated to: {new_status}")
     else:
