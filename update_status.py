@@ -1,53 +1,53 @@
-import os
-import random
-import time
 import requests
+import os
+from datetime import datetime
 
-# Get the token from the environment variable
-gh_token = os.environ.get('GH_TOKEN')
-if not gh_token:
-    raise Exception("No token found in the GH_TOKEN environment variable.")
+# Get the current GitHub status message
+def get_current_status():
+    url = "https://api.github.com/users/{username}"
+    headers = {
+        "Authorization": f"token {os.getenv('GH_TOKEN')}"
+    }
+    response = requests.get(url, headers=headers)
+    response_data = response.json()
 
-# List of possible descriptions for the status
-descriptions = [
-    "Working on new projects 🚀",
-    "Reviewing code... 💻",
-    "Focused on continuous improvement 🔧",
-    "Exploring new ideas 💡",
-    "Mediating between ideas and code 🖥️"
-]
+    if 'status' in response_data:
+        return response_data['status']
+    else:
+        return None
 
-# Time interval for changing the status (in seconds)
-interval = 3600  # 1 hour (you can adjust it to whatever you need)
-
-# Define the URL for the GitHub status update endpoint
-url = "https://api.github.com/user/status"
-
-# Set up headers
-headers = {
-    "Authorization": f"token {gh_token}",
-    "Accept": "application/vnd.github+json"
-}
-
-# Function to update GitHub status
+# Update the status message on GitHub
 def update_status():
-    description = random.choice(descriptions)  # Choose a random status from the list
-
-    # Set up the payload with the new status
+    url = "https://api.github.com/users/{username}"
+    headers = {
+        "Authorization": f"token {os.getenv('GH_TOKEN')}",
+        "Content-Type": "application/json"
+    }
+    
+    status_messages = [
+        "Working on something cool!",
+        "Taking a break, be back soon!",
+        "In a meeting, will reply later!",
+        "Looking for new project ideas!"
+    ]
+    
+    # You can customize the selection logic based on the time of day or other factors
+    # For example, update to a random message from the list
+    new_status = status_messages[datetime.now().hour % len(status_messages)]  # Simple logic to change status
+    
     payload = {
-        "emoji": ":rocket:",  # Emoji to show in the status
-        "message": description  # Status message
+        "status": new_status,
+        "emoji": ":smiley:",  # You can customize the emoji
+        "expires_at": None  # Set to None for no expiration
     }
 
-    # Make the PATCH request to the GitHub API
     response = requests.patch(url, json=payload, headers=headers)
-
+    
     if response.status_code == 200:
-        print(f"Status updated: {description}")
+        print(f"Status updated to: {new_status}")
     else:
-        print(f"Error updating status: {response.status_code} - {response.text}")
+        print(f"Failed to update status: {response.status_code} - {response.text}")
 
-# Loop to change the status based on the interval
-while True:
-    update_status()  # Update the status
-    time.sleep(interval)  # Wait for the interval before changing the status again
+# Main function to run the update
+if __name__ == "__main__":
+    update_status()  # Update status once
