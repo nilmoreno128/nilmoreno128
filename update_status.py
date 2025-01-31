@@ -3,51 +3,51 @@ import random
 import time
 import requests
 
-# Obtiene el token desde la variable de entorno
+# Get the token from the environment variable
 gh_token = os.environ.get('GH_TOKEN')
 if not gh_token:
-    raise Exception("No se encontró el token en la variable GH_TOKEN.")
+    raise Exception("No token found in the GH_TOKEN environment variable.")
 
-# Lista de posibles descripciones para el estado
+# List of possible descriptions for the status
 descriptions = [
-    "Trabajando en nuevos proyectos 🚀",
-    "Revisando código... 💻",
-    "Enfocado en la mejora continua 🔧",
-    "Explorando nuevas ideas 💡",
-    "Mediando entre ideas y código 🖥️"
+    "Working on new projects 🚀",
+    "Reviewing code... 💻",
+    "Focused on continuous improvement 🔧",
+    "Exploring new ideas 💡",
+    "Mediating between ideas and code 🖥️"
 ]
 
-# Intervalo de tiempo para cambiar el estado (en segundos)
-interval = 3600  # 1 hora (puedes ajustarlo a lo que necesites)
+# Time interval for changing the status (in seconds)
+interval = 3600  # 1 hour (you can adjust it to whatever you need)
 
-# Define la URL del endpoint para actualizar el estado
+# Define the URL for the GitHub status update endpoint
 url = "https://api.github.com/user/status"
 
-# Configura las cabeceras
+# Set up headers
 headers = {
     "Authorization": f"token {gh_token}",
     "Accept": "application/vnd.github+json"
 }
 
-# Función para actualizar el estado de GitHub
+# Function to update GitHub status
 def update_status():
-    description = random.choice(descriptions)  # Elige un estado aleatorio de la lista
+    description = random.choice(descriptions)  # Choose a random status from the list
 
-    # Configura el payload con el nuevo estado
+    # Set up the payload with the new status
     payload = {
-        "emoji": ":rocket:",  # Emoji que se mostrará en el estado
-        "message": description  # Mensaje del estado
+        "emoji": ":rocket:",  # Emoji to show in the status
+        "message": description  # Status message
     }
 
-    # Realiza la petición PATCH a la API de GitHub
+    # Make the PATCH request to the GitHub API
     response = requests.patch(url, json=payload, headers=headers)
 
     if response.status_code == 200:
-        print(f"Estado actualizado: {description}")
+        print(f"Status updated: {description}")
     else:
-        print(f"Error al actualizar el estado: {response.status_code} - {response.text}")
+        print(f"Error updating status: {response.status_code} - {response.text}")
 
-# Bucle para cambiar el estado según el intervalo
+# Loop to change the status based on the interval
 while True:
-    update_status()  # Actualiza el estado
-    time.sleep(interval)  # Espera el intervalo antes de cambiar el estado
+    update_status()  # Update the status
+    time.sleep(interval)  # Wait for the interval before changing the status again
