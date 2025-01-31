@@ -1,27 +1,27 @@
-name: Actualizar estado del perfil
+name: Update GitHub Profile Status
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Ejecuta cada hora, puedes modificar el cron según lo necesites
-  workflow_dispatch:  # Permite ejecutar el workflow manualmente
+    - cron: '0 * * * *'  # Run every hour, you can modify the cron expression to suit your needs
+  workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
   update-status:
-    runs-on: ubuntu-latest  # Usar un entorno de Ubuntu para ejecutar el script
+    runs-on: ubuntu-latest  # Use an Ubuntu environment to run the script
 
     steps:
-    - name: Clonar el repositorio
-      uses: actions/checkout@v3  # Clona el repositorio en la acción
+    - name: Checkout the repository
+      uses: actions/checkout@v3  # Check out the repository during the action
 
-    - name: Configurar Python
+    - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.x'  # Configura la versión de Python que usarás
+        python-version: '3.x'  # Set the Python version you'll be using
 
-    - name: Instalar dependencias
-      run: pip install requests  # Instala la librería requests necesaria para hacer peticiones HTTP
+    - name: Install dependencies
+      run: pip install requests  # Install the requests library needed for making HTTP requests
 
-    - name: Actualizar el estado del perfil
+    - name: Update the profile status
       env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Obtiene el token del secreto en GitHub
-      run: python update_status.py  # Ejecuta el script Python que actualiza el estado
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Get the token from the secrets in GitHub
+      run: python update_status.py  # Run the Python script that updates the status
