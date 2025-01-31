@@ -2,7 +2,7 @@ name: Update GitHub Profile Status
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Ejecutar cada hora
+    - cron: '*/15 * * * *'  # Ejecutar cada 15 minutos
   workflow_dispatch:  # Permite ejecutar manualmente también
 
 jobs:
