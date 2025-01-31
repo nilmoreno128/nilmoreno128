@@ -10,8 +10,6 @@
   </blockquote>
 </details>
 
-![Quote]
-
 
 ## 💻 Languages & Tools
 
