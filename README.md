@@ -60,7 +60,7 @@
 <details>
   <summary>Click to view what’s playing on Spotify 👇</summary>
 
-  [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31hnvelsqrs2v2ic26mgvxnatfqm&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=false&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=31hnvelsqrs2v2ic26mgvxnatfqm&redirect=true)
+  [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31hnvelsqrs2v2ic26mgvxnatfqm&cover_image=false&theme=compact&show_offline=true&background_color=121212&interchange=true)](https://github.com/kittinan/spotify-github-profile)
 </details>
 
 ---
