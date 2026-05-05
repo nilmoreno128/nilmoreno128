@@ -36,7 +36,7 @@
 - **Team Collaboration**: Working effectively in a team environment on projects.
 
 </details>
-
+<!--
 ## 🔍 Other Profiles
 
 <details>
@@ -62,7 +62,7 @@
 
   [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31hnvelsqrs2v2ic26mgvxnatfqm&cover_image=false&theme=compact&show_offline=true&background_color=121212&interchange=true)](https://github.com/kittinan/spotify-github-profile)
 </details>
-
+-->
 ---
 
 Thanks for visiting my profile! 😊
