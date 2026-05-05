@@ -36,21 +36,6 @@
 - **Team Collaboration**: Working effectively in a team environment on projects.
 
 </details>
-<!--
-## 🔍 Other Profiles
-
-<details>
-  <summary>Click to view other profiles 👇</summary>
-
-  [![Discord Card](https://discord-readme-card.ezzud.fr/?userid=691620711118143569)](https://discord.com/users/691620711118143569)
-</details>
-
-
-<details>
-  <summary>Click to view what’s playing on Spotify 👇</summary>
-
-  [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31hnvelsqrs2v2ic26mgvxnatfqm&cover_image=false&theme=compact&show_offline=true&background_color=121212&interchange=true)](https://github.com/kittinan/spotify-github-profile)
-</details>
 ---
 
-Thanks for visiting my profile! 😊
+Thanks for visiting my profile!
