@@ -42,27 +42,15 @@
 <details>
   <summary>Click to view other profiles 👇</summary>
 
-  [![Steam Card](https://card.yuy1n.io/card/76561198894586735/dark,en,badge,badges,games)](https://steamcommunity.com/id/fastrogame/)
-
   [![Discord Card](https://discord-readme-card.ezzud.fr/?userid=691620711118143569)](https://discord.com/users/691620711118143569)
 </details>
 
-<details>
-  <summary>Click to view my YouTube videos 👇</summary>
-
-  <!-- BEGIN YOUTUBE-CARDS -->
-[![TrafficSystemController #unity](https://ytcards.demolab.com/?id=YL849DFzRis&title=TrafficSystemController+%23unity&lang=es&timestamp=1737319502&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "TrafficSystemController #unity")](https://www.youtube.com/watch?v=YL849DFzRis)
-[![FreeCameraController #unity](https://ytcards.demolab.com/?id=q8GUNYZ0_B0&title=FreeCameraController+%23unity&lang=es&timestamp=1737319501&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "FreeCameraController #unity")](https://www.youtube.com/watch?v=q8GUNYZ0_B0)
-[![MultiTargetCameraController #unity](https://ytcards.demolab.com/?id=w7JWjdIaDfk&title=MultiTargetCameraController+%23unity&lang=es&timestamp=1737319501&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "MultiTargetCameraController #unity")](https://www.youtube.com/watch?v=w7JWjdIaDfk)
-<!-- END YOUTUBE-CARDS -->
-</details>
 
 <details>
   <summary>Click to view what’s playing on Spotify 👇</summary>
 
   [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31hnvelsqrs2v2ic26mgvxnatfqm&cover_image=false&theme=compact&show_offline=true&background_color=121212&interchange=true)](https://github.com/kittinan/spotify-github-profile)
 </details>
--->
 ---
 
 Thanks for visiting my profile! 😊
