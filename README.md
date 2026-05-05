@@ -36,6 +36,5 @@
 - **Team Collaboration**: Working effectively in a team environment on projects.
 
 </details>
----
 
 Thanks for visiting my profile!
